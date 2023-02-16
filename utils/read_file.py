@@ -12,6 +12,7 @@ sqlContext = SQLContext(sc)
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.getOrCreate()
 
+
 def reading_daily_file(filename):#read csv file
 
     if filename.endswith('.csv'):
